@@ -1,0 +1,13 @@
+#!/usr/local/bin/expect
+
+set timeout 120
+
+spawn ./setup
+
+expect "Press ENTER to continue ..." {send "\r27\rqY\r1\r$SQLANYWHERE16_KEY\rqY\r"}
+expect "Choice:" {send "N\r6\r1\r1\r2\rP\rP\rS\r\rY\rN\rY\n\rN\r"}
+expect {
+  "Would you like to review the Read Me file?" {send "\N\r"}
+  default {puts stdout "\nInstallation failed."}
+}
+
