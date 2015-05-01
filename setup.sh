@@ -2,7 +2,7 @@
 
 export SQLANY16=$HOME/sqlanywhere16
 
-wget http://d5d4ifzqzkhwt.cloudfront.net/sqla16developer/bin/sqla16developerlinux.tar.gz | tar xzf
+wget https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLV1ZZdDBvSjFPZFU | tar xzf
 
 echo "$HOME/sqlanywhere16/lib64" > /etc/ld.so.conf.d/sqlanywhere.conf
 ldconfig
