@@ -6,7 +6,7 @@ export SQLANY16=`pwd`/sqlanywhere16
 export LD_LIBRARY_PATH=`pwd`/sqlanywhere16/lib64
 
 wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLV1ZZdDBvSjFPZFU" | tar xz
-wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLbDNKcXYtaG1CaEE" | tar xz
+wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLa3k0dVlpcE00Tk0" | tar xz
 
 echo "extension = `pwd`/php_sqlanywhere/sqlanywhere_$(phpenv version-name).so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
