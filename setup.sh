@@ -7,6 +7,7 @@ wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLV1ZZdDBvS
 wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLQnlZZkdMa20zdkU" | tar xz
 
 cd php_sqlanywhere
+phpize
 ./configure
 make
 make install
