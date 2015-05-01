@@ -13,4 +13,4 @@ echo $LD_LIBRARY_PATH
 
 cd ./sqlanywhere16
 
-./sqlanywhere16/bin64/dbsrv16 -x tcpip{DOBROADCAST=NO} demo.db
+./bin64/dbsrv16 -x tcpip{DOBROADCAST=NO} demo.db
