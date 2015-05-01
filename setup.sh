@@ -9,4 +9,4 @@ echo $SQLANY16
 echo $LD_LIBRARY_PATH
 pwd
 
-./sqlanywhere16/bin64/dbsrv16 -x tcpip{DOBROADCAST=NO} /sqlanywhere16/demo.db
+./sqlanywhere16/bin64/dbsrv16 -x tcpip{DOBROADCAST=NO} ./sqlanywhere16/demo.db
