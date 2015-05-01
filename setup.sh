@@ -6,7 +6,7 @@ export LD_LIBRARY_PATH=`pwd`/sqlanywhere16/lib64
 wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLV1ZZdDBvSjFPZFU" | tar xz
 wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLQnlZZkdMa20zdkU" | tar xz
 
-cd php-sqlanywhere
+cd php_sqlanywhere
 ./configure
 make
 make install
