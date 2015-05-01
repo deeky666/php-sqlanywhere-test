@@ -10,6 +10,7 @@ ldconfig
 
 echo $SQLANY16
 echo $LD_LIBRARY_PATH
+pwd
 
 cd ./sqlanywhere16
 
