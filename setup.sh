@@ -6,7 +6,7 @@ export LD_LIBRARY_PATH=`pwd`/sqlanywhere16/lib64
 sudo apt-get update -y
 sudo apt-get install -y php5-dev  --no-install-recommends
 
-wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLYm93Tm9QUGFZY1U" | tar xz
+wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLZmdKdEJMcldxSWM" | tar xz
 wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLNnFhYjM1VmtQUWM" | tar xz
 
 cd php_sqlanywhere
