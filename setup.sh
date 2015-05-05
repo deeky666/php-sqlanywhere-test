@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export SQLANY16=`pwd`/sqlanywhere16
-export LD_LIBRARY_PATH=`pwd`/sqlanywhere16/lib64
+#export SQLANY16=`pwd`/sqlanywhere16
+#export LD_LIBRARY_PATH=`pwd`/sqlanywhere16/lib64
 
 wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLWUUzY2lTcmVjb1k" | tar xz
 wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLS1oxaUQzTy1Jczg" | tar xz
