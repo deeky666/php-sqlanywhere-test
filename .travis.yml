@@ -8,7 +8,7 @@ php:
 
 env:
   global:
-    - secure: "d/I6P6DHa5/Liqy2Ok42oDMrB0U/tf+ET4VYwwxoa41lZOcDk75pmpfrJheoejPhyNCP071dXVGsdMc+dvGHDqMVvTqEGYdXXF6drHu2xFtUYzyDmJukbRRwYX9mhVwPaboCXG2h7FZMEZDpyryrrU5Q2SmMbAyWnnMY5VZ1Esg="
+    - secure: "NdFKGCQVeW7REJLPNl3lw10xn3OvQYMo+7dhVTvfZErq/geDYQDPD9V5qKqvrQscJ5ptKp/Y2HESnLQUsKQS13pT7ZZVnjNwjTQ7zaBV7N43MprN9K7zU7sUgZLznrrr5QNG449qB4vNVGpT2ImOI+/7xXXboqfX6yKtWDxloyE="
   matrix:
     - SQLANYWHERE_GDRIVE_ID=$SQLANYWHERE_16_GDRIVE_ID SQLANY16=`pwd`/sqlanywhere16 LD_LIBRARY_PATH=`pwd`/sqlanywhere16/lib64
 
