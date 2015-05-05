@@ -7,6 +7,9 @@ php:
   - 5.6
 
 env:
-  - SQLANY16=`pwd`/sqlanywhere16 LD_LIBRARY_PATH=`pwd`/sqlanywhere16/lib64
+  global:
+    - secure: "d/I6P6DHa5/Liqy2Ok42oDMrB0U/tf+ET4VYwwxoa41lZOcDk75pmpfrJheoejPhyNCP071dXVGsdMc+dvGHDqMVvTqEGYdXXF6drHu2xFtUYzyDmJukbRRwYX9mhVwPaboCXG2h7FZMEZDpyryrrU5Q2SmMbAyWnnMY5VZ1Esg="
+  matrix:
+    - SQLANYWHERE_GDRIVE_TOKEN=$SQLANYWHERE_16_GDRIVE_TOKEN SQLANY16=`pwd`/sqlanywhere16 LD_LIBRARY_PATH=`pwd`/sqlanywhere16/lib64
 
 install: ./setup.sh
