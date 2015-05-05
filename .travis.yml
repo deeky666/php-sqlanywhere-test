@@ -13,7 +13,6 @@ env:
     # $SQLANYWHERE_16_GDRIVE_ID
     - secure: "BNdCXgiF/weNYYgltVIFmkK1tnVUlNkjWeU8khpbQdNQyyqIoLHOPPG9lRttUbqvlJg2Tda27/Qn6/ZEaPBR9N/4TXLKxYzsj5fcHMXCuo/VN9Wchg12BWVx9GuOp+MqVKT91Ky/t7uL/wNURUehgpjuC5hD2fAugtiUqWi/8wo="
     - LD_LIBRARY_PATH=`pwd`/sqlanywhere/lib64
-    - SQLANY12=`pwd`/sqlanywhere
     - SQLANY16=`pwd`/sqlanywhere
   matrix:
     - SQLANYWHERE_GDRIVE_ID=$SQLANYWHERE_12_GDRIVE_ID
