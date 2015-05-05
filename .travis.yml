@@ -8,12 +8,15 @@ php:
 
 env:
   global:
+    # $SQLANYWHERE_12_GDRIVE_ID
+    - secure: "F7Ihf0Zb8cRnFS9J7lWmLho3wENtpRptJD965AOr1i1rSm2BZD+9KVtelkzvFitRe8NDDVs3vprvGHQQ+1K/Fk6N8g5qHWgEI7LuOU0Z/a1ule5NxxcyllP3w7AKCIYsxcGpi9ZzALpAI7fHNqjXTSctuMP/8PEK1YYMvfjWCa8="
     # $SQLANYWHERE_16_GDRIVE_ID
     - secure: "BNdCXgiF/weNYYgltVIFmkK1tnVUlNkjWeU8khpbQdNQyyqIoLHOPPG9lRttUbqvlJg2Tda27/Qn6/ZEaPBR9N/4TXLKxYzsj5fcHMXCuo/VN9Wchg12BWVx9GuOp+MqVKT91Ky/t7uL/wNURUehgpjuC5hD2fAugtiUqWi/8wo="
     - LD_LIBRARY_PATH=`pwd`/sqlanywhere/lib64
     - SQLANY12=`pwd`/sqlanywhere
     - SQLANY16=`pwd`/sqlanywhere
   matrix:
+    - SQLANYWHERE_GDRIVE_ID=$SQLANYWHERE_12_GDRIVE_ID
     - SQLANYWHERE_GDRIVE_ID=$SQLANYWHERE_16_GDRIVE_ID
 
 install: ./setup.sh
