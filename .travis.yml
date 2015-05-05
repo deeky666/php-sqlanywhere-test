@@ -9,7 +9,7 @@ php:
 env:
   global:
     # $SQLANYWHERE_16_GDRIVE_ID
-    - secure: "LmrTaUkqHEOdtet7u0ITxsfyQgLzu0cEBV5/UpLd8P+YmAyVEdTvnarB6s9drO+BbLRkpxeP2ZR7BXX4BTHDOsGPZz53sxQiWzGAGP8Z6gNZPM1S4dMaaMm1b4BZtiMioeXKDtPQmZ105sEQh1LneLiCcIzNgeJW3BnhA8NddC8="
+    - secure: "BNdCXgiF/weNYYgltVIFmkK1tnVUlNkjWeU8khpbQdNQyyqIoLHOPPG9lRttUbqvlJg2Tda27/Qn6/ZEaPBR9N/4TXLKxYzsj5fcHMXCuo/VN9Wchg12BWVx9GuOp+MqVKT91Ky/t7uL/wNURUehgpjuC5hD2fAugtiUqWi/8wo="
     - LD_LIBRARY_PATH=`pwd`/sqlanywhere/lib64
     - SQLANY12=`pwd`/sqlanywhere
     - SQLANY16=`pwd`/sqlanywhere

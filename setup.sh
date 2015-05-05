@@ -5,4 +5,6 @@ wget -qO- "https://drive.google.com/uc?export=download&id=0BxDG3LHQ2MkLS1oxaUQzT
 
 echo "extension = `pwd`/php_sqlanywhere/sqlanywhere_$(phpenv version-name).so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
+echo -n "SQL Anywhere " && echo -n `./sqlanywhere/bin64/dbsrv -v`
+
 ./sqlanywhere/bin64/dbsrv -ud -x tcpip{DOBROADCAST=NO} ./sqlanywhere/demo.db
